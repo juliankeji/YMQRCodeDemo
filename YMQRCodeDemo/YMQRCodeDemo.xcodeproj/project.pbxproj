@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C11B31A1EBD64E1008E5BF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C11B3191EBD64E1008E5BF8 /* AppDelegate.swift */; };
+		2C11B31C1EBD64E1008E5BF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C11B31B1EBD64E1008E5BF8 /* ViewController.swift */; };
+		2C11B31F1EBD64E1008E5BF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C11B31D1EBD64E1008E5BF8 /* Main.storyboard */; };
+		2C11B3221EBD64E1008E5BF8 /* YMQRCodeDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C11B3201EBD64E1008E5BF8 /* YMQRCodeDemo.xcdatamodeld */; };
+		2C11B3241EBD64E1008E5BF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C11B3231EBD64E1008E5BF8 /* Assets.xcassets */; };
+		2C11B3271EBD64E1008E5BF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C11B3251EBD64E1008E5BF8 /* LaunchScreen.storyboard */; };
+		2C11B3321EBD64E1008E5BF8 /* YMQRCodeDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C11B3311EBD64E1008E5BF8 /* YMQRCodeDemoTests.swift */; };
+		2C11B33D1EBD64E1008E5BF8 /* YMQRCodeDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C11B33C1EBD64E1008E5BF8 /* YMQRCodeDemoUITests.swift */; };
+		2C11B34B1EBD68BC008E5BF8 /* RecognizeQRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C11B34A1EBD68BC008E5BF8 /* RecognizeQRCodeViewController.swift */; };
+		2C11B34E1EBD69CC008E5BF8 /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C11B34D1EBD69CC008E5BF8 /* Tool.swift */; };
+		2C11B3511EBD71D2008E5BF8 /* String+QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C11B34F1EBD71D2008E5BF8 /* String+QRCode.swift */; };
+		2C11B3521EBD71D2008E5BF8 /* UIImage+QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C11B3501EBD71D2008E5BF8 /* UIImage+QRCode.swift */; };
+		2C11B3541EBD7704008E5BF8 /* ScanCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C11B3531EBD7704008E5BF8 /* ScanCodeViewController.swift */; };
+		2C11B3561EBDBE46008E5BF8 /* sweep_bg_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C11B3551EBDBE46008E5BF8 /* sweep_bg_line@2x.png */; };
+		2C11B3581EBDC1F5008E5BF8 /* MyQRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C11B3571EBDC1F5008E5BF8 /* MyQRCodeViewController.swift */; };
+		2C11B35B1EBDC465008E5BF8 /* GenerateQRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C11B3591EBDC465008E5BF8 /* GenerateQRCodeViewController.swift */; };
+		2C11B35C1EBDC466008E5BF8 /* GenerateQRCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C11B35A1EBDC465008E5BF8 /* GenerateQRCodeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C11B32E1EBD64E1008E5BF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C11B30E1EBD64E1008E5BF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C11B3151EBD64E1008E5BF8;
+			remoteInfo = YMQRCodeDemo;
+		};
+		2C11B3391EBD64E1008E5BF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C11B30E1EBD64E1008E5BF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C11B3151EBD64E1008E5BF8;
+			remoteInfo = YMQRCodeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C11B3161EBD64E1008E5BF8 /* YMQRCodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMQRCodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C11B3191EBD64E1008E5BF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C11B31B1EBD64E1008E5BF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C11B31E1EBD64E1008E5BF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C11B3211EBD64E1008E5BF8 /* YMQRCodeDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YMQRCodeDemo.xcdatamodel; sourceTree = "<group>"; };
+		2C11B3231EBD64E1008E5BF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C11B3261EBD64E1008E5BF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C11B3281EBD64E1008E5BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C11B32D1EBD64E1008E5BF8 /* YMQRCodeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMQRCodeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C11B3311EBD64E1008E5BF8 /* YMQRCodeDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMQRCodeDemoTests.swift; sourceTree = "<group>"; };
+		2C11B3331EBD64E1008E5BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C11B3381EBD64E1008E5BF8 /* YMQRCodeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMQRCodeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C11B33C1EBD64E1008E5BF8 /* YMQRCodeDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMQRCodeDemoUITests.swift; sourceTree = "<group>"; };
+		2C11B33E1EBD64E1008E5BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C11B34A1EBD68BC008E5BF8 /* RecognizeQRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecognizeQRCodeViewController.swift; sourceTree = "<group>"; };
+		2C11B34C1EBD6925008E5BF8 /* noticeMusic.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = noticeMusic.caf; sourceTree = "<group>"; };
+		2C11B34D1EBD69CC008E5BF8 /* Tool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
+		2C11B34F1EBD71D2008E5BF8 /* String+QRCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+QRCode.swift"; sourceTree = "<group>"; };
+		2C11B3501EBD71D2008E5BF8 /* UIImage+QRCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+QRCode.swift"; sourceTree = "<group>"; };
+		2C11B3531EBD7704008E5BF8 /* ScanCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanCodeViewController.swift; sourceTree = "<group>"; };
+		2C11B3551EBDBE46008E5BF8 /* sweep_bg_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sweep_bg_line@2x.png"; sourceTree = "<group>"; };
+		2C11B3571EBDC1F5008E5BF8 /* MyQRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyQRCodeViewController.swift; sourceTree = "<group>"; };
+		2C11B3591EBDC465008E5BF8 /* GenerateQRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerateQRCodeViewController.swift; sourceTree = "<group>"; };
+		2C11B35A1EBDC465008E5BF8 /* GenerateQRCodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GenerateQRCodeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C11B3131EBD64E1008E5BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C11B32A1EBD64E1008E5BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C11B3351EBD64E1008E5BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C11B30D1EBD64E1008E5BF8 = {
+			isa = PBXGroup;
+			children = (
+				2C11B3181EBD64E1008E5BF8 /* YMQRCodeDemo */,
+				2C11B3301EBD64E1008E5BF8 /* YMQRCodeDemoTests */,
+				2C11B33B1EBD64E1008E5BF8 /* YMQRCodeDemoUITests */,
+				2C11B3171EBD64E1008E5BF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C11B3171EBD64E1008E5BF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C11B3161EBD64E1008E5BF8 /* YMQRCodeDemo.app */,
+				2C11B32D1EBD64E1008E5BF8 /* YMQRCodeDemoTests.xctest */,
+				2C11B3381EBD64E1008E5BF8 /* YMQRCodeDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C11B3181EBD64E1008E5BF8 /* YMQRCodeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2C11B3551EBDBE46008E5BF8 /* sweep_bg_line@2x.png */,
+				2C11B34C1EBD6925008E5BF8 /* noticeMusic.caf */,
+				2C11B34F1EBD71D2008E5BF8 /* String+QRCode.swift */,
+				2C11B3501EBD71D2008E5BF8 /* UIImage+QRCode.swift */,
+				2C11B3531EBD7704008E5BF8 /* ScanCodeViewController.swift */,
+				2C11B3571EBDC1F5008E5BF8 /* MyQRCodeViewController.swift */,
+				2C11B3191EBD64E1008E5BF8 /* AppDelegate.swift */,
+				2C11B31B1EBD64E1008E5BF8 /* ViewController.swift */,
+				2C11B34A1EBD68BC008E5BF8 /* RecognizeQRCodeViewController.swift */,
+				2C11B31D1EBD64E1008E5BF8 /* Main.storyboard */,
+				2C11B3231EBD64E1008E5BF8 /* Assets.xcassets */,
+				2C11B34D1EBD69CC008E5BF8 /* Tool.swift */,
+				2C11B3251EBD64E1008E5BF8 /* LaunchScreen.storyboard */,
+				2C11B3281EBD64E1008E5BF8 /* Info.plist */,
+				2C11B3201EBD64E1008E5BF8 /* YMQRCodeDemo.xcdatamodeld */,
+				2C11B3591EBDC465008E5BF8 /* GenerateQRCodeViewController.swift */,
+				2C11B35A1EBDC465008E5BF8 /* GenerateQRCodeViewController.xib */,
+			);
+			path = YMQRCodeDemo;
+			sourceTree = "<group>";
+		};
+		2C11B3301EBD64E1008E5BF8 /* YMQRCodeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C11B3311EBD64E1008E5BF8 /* YMQRCodeDemoTests.swift */,
+				2C11B3331EBD64E1008E5BF8 /* Info.plist */,
+			);
+			path = YMQRCodeDemoTests;
+			sourceTree = "<group>";
+		};
+		2C11B33B1EBD64E1008E5BF8 /* YMQRCodeDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C11B33C1EBD64E1008E5BF8 /* YMQRCodeDemoUITests.swift */,
+				2C11B33E1EBD64E1008E5BF8 /* Info.plist */,
+			);
+			path = YMQRCodeDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C11B3151EBD64E1008E5BF8 /* YMQRCodeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C11B3411EBD64E1008E5BF8 /* Build configuration list for PBXNativeTarget "YMQRCodeDemo" */;
+			buildPhases = (
+				2C11B3121EBD64E1008E5BF8 /* Sources */,
+				2C11B3131EBD64E1008E5BF8 /* Frameworks */,
+				2C11B3141EBD64E1008E5BF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMQRCodeDemo;
+			productName = YMQRCodeDemo;
+			productReference = 2C11B3161EBD64E1008E5BF8 /* YMQRCodeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C11B32C1EBD64E1008E5BF8 /* YMQRCodeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C11B3441EBD64E1008E5BF8 /* Build configuration list for PBXNativeTarget "YMQRCodeDemoTests" */;
+			buildPhases = (
+				2C11B3291EBD64E1008E5BF8 /* Sources */,
+				2C11B32A1EBD64E1008E5BF8 /* Frameworks */,
+				2C11B32B1EBD64E1008E5BF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C11B32F1EBD64E1008E5BF8 /* PBXTargetDependency */,
+			);
+			name = YMQRCodeDemoTests;
+			productName = YMQRCodeDemoTests;
+			productReference = 2C11B32D1EBD64E1008E5BF8 /* YMQRCodeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C11B3371EBD64E1008E5BF8 /* YMQRCodeDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C11B3471EBD64E1008E5BF8 /* Build configuration list for PBXNativeTarget "YMQRCodeDemoUITests" */;
+			buildPhases = (
+				2C11B3341EBD64E1008E5BF8 /* Sources */,
+				2C11B3351EBD64E1008E5BF8 /* Frameworks */,
+				2C11B3361EBD64E1008E5BF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C11B33A1EBD64E1008E5BF8 /* PBXTargetDependency */,
+			);
+			name = YMQRCodeDemoUITests;
+			productName = YMQRCodeDemoUITests;
+			productReference = 2C11B3381EBD64E1008E5BF8 /* YMQRCodeDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C11B30E1EBD64E1008E5BF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = YDWY;
+				TargetAttributes = {
+					2C11B3151EBD64E1008E5BF8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 55ZH5PXLU7;
+						ProvisioningStyle = Automatic;
+					};
+					2C11B32C1EBD64E1008E5BF8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = H83E67XW45;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2C11B3151EBD64E1008E5BF8;
+					};
+					2C11B3371EBD64E1008E5BF8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = H83E67XW45;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2C11B3151EBD64E1008E5BF8;
+					};
+				};
+			};
+			buildConfigurationList = 2C11B3111EBD64E1008E5BF8 /* Build configuration list for PBXProject "YMQRCodeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C11B30D1EBD64E1008E5BF8;
+			productRefGroup = 2C11B3171EBD64E1008E5BF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C11B3151EBD64E1008E5BF8 /* YMQRCodeDemo */,
+				2C11B32C1EBD64E1008E5BF8 /* YMQRCodeDemoTests */,
+				2C11B3371EBD64E1008E5BF8 /* YMQRCodeDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C11B3141EBD64E1008E5BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C11B3561EBDBE46008E5BF8 /* sweep_bg_line@2x.png in Resources */,
+				2C11B3271EBD64E1008E5BF8 /* LaunchScreen.storyboard in Resources */,
+				2C11B3241EBD64E1008E5BF8 /* Assets.xcassets in Resources */,
+				2C11B31F1EBD64E1008E5BF8 /* Main.storyboard in Resources */,
+				2C11B35C1EBDC466008E5BF8 /* GenerateQRCodeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C11B32B1EBD64E1008E5BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C11B3361EBD64E1008E5BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C11B3121EBD64E1008E5BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C11B3521EBD71D2008E5BF8 /* UIImage+QRCode.swift in Sources */,
+				2C11B3511EBD71D2008E5BF8 /* String+QRCode.swift in Sources */,
+				2C11B3221EBD64E1008E5BF8 /* YMQRCodeDemo.xcdatamodeld in Sources */,
+				2C11B35B1EBDC465008E5BF8 /* GenerateQRCodeViewController.swift in Sources */,
+				2C11B34B1EBD68BC008E5BF8 /* RecognizeQRCodeViewController.swift in Sources */,
+				2C11B31C1EBD64E1008E5BF8 /* ViewController.swift in Sources */,
+				2C11B3581EBDC1F5008E5BF8 /* MyQRCodeViewController.swift in Sources */,
+				2C11B34E1EBD69CC008E5BF8 /* Tool.swift in Sources */,
+				2C11B3541EBD7704008E5BF8 /* ScanCodeViewController.swift in Sources */,
+				2C11B31A1EBD64E1008E5BF8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C11B3291EBD64E1008E5BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C11B3321EBD64E1008E5BF8 /* YMQRCodeDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C11B3341EBD64E1008E5BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C11B33D1EBD64E1008E5BF8 /* YMQRCodeDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C11B32F1EBD64E1008E5BF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C11B3151EBD64E1008E5BF8 /* YMQRCodeDemo */;
+			targetProxy = 2C11B32E1EBD64E1008E5BF8 /* PBXContainerItemProxy */;
+		};
+		2C11B33A1EBD64E1008E5BF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C11B3151EBD64E1008E5BF8 /* YMQRCodeDemo */;
+			targetProxy = 2C11B3391EBD64E1008E5BF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C11B31D1EBD64E1008E5BF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C11B31E1EBD64E1008E5BF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C11B3251EBD64E1008E5BF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C11B3261EBD64E1008E5BF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C11B33F1EBD64E1008E5BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C11B3401EBD64E1008E5BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C11B3421EBD64E1008E5BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 55ZH5PXLU7;
+				INFOPLIST_FILE = YMQRCodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YDWY.YMQRCodeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2C11B3431EBD64E1008E5BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 55ZH5PXLU7;
+				INFOPLIST_FILE = YMQRCodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YDWY.YMQRCodeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2C11B3451EBD64E1008E5BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H83E67XW45;
+				INFOPLIST_FILE = YMQRCodeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YDWY.YMQRCodeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMQRCodeDemo.app/YMQRCodeDemo";
+			};
+			name = Debug;
+		};
+		2C11B3461EBD64E1008E5BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H83E67XW45;
+				INFOPLIST_FILE = YMQRCodeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YDWY.YMQRCodeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMQRCodeDemo.app/YMQRCodeDemo";
+			};
+			name = Release;
+		};
+		2C11B3481EBD64E1008E5BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = H83E67XW45;
+				INFOPLIST_FILE = YMQRCodeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YDWY.YMQRCodeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YMQRCodeDemo;
+			};
+			name = Debug;
+		};
+		2C11B3491EBD64E1008E5BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = H83E67XW45;
+				INFOPLIST_FILE = YMQRCodeDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YDWY.YMQRCodeDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = YMQRCodeDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C11B3111EBD64E1008E5BF8 /* Build configuration list for PBXProject "YMQRCodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C11B33F1EBD64E1008E5BF8 /* Debug */,
+				2C11B3401EBD64E1008E5BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C11B3411EBD64E1008E5BF8 /* Build configuration list for PBXNativeTarget "YMQRCodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C11B3421EBD64E1008E5BF8 /* Debug */,
+				2C11B3431EBD64E1008E5BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C11B3441EBD64E1008E5BF8 /* Build configuration list for PBXNativeTarget "YMQRCodeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C11B3451EBD64E1008E5BF8 /* Debug */,
+				2C11B3461EBD64E1008E5BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C11B3471EBD64E1008E5BF8 /* Build configuration list for PBXNativeTarget "YMQRCodeDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C11B3481EBD64E1008E5BF8 /* Debug */,
+				2C11B3491EBD64E1008E5BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2C11B3201EBD64E1008E5BF8 /* YMQRCodeDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2C11B3211EBD64E1008E5BF8 /* YMQRCodeDemo.xcdatamodel */,
+			);
+			currentVersion = 2C11B3211EBD64E1008E5BF8 /* YMQRCodeDemo.xcdatamodel */;
+			path = YMQRCodeDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2C11B30E1EBD64E1008E5BF8 /* Project object */;
+}

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GenerateQRCodeViewController" customModule="YMQRCodeDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="QRCodeImageView" destination="p4F-5G-rDL" id="oF3-fj-875"/>
+                <outlet property="contentLab" destination="e3o-db-ApL" id="mJC-Os-ttQ"/>
+                <outlet property="logoImageView" destination="gMQ-yF-cQz" id="80M-FS-9sK"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入要生成二维码的文字" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e3o-db-ApL">
+                    <rect key="frame" x="54" y="86" width="272" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="272" id="AN3-by-cgI"/>
+                        <constraint firstAttribute="height" constant="30" id="Ld8-5g-LQH"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请选择logo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dkp-do-3y5">
+                    <rect key="frame" x="54" y="134" width="86" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="86" id="XNC-Ji-Sky"/>
+                        <constraint firstAttribute="height" constant="21" id="kx3-cV-nbr"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="二维码" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wfF-Pd-Eti">
+                    <rect key="frame" x="54" y="281" width="86" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="86" id="U3x-Oe-MVf"/>
+                        <constraint firstAttribute="height" constant="21" id="dp9-6F-Efz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="8_150709170804_8" translatesAutoresizingMaskIntoConstraints="NO" id="gMQ-yF-cQz">
+                    <rect key="frame" x="143" y="134" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="6z9-z0-KlP"/>
+                        <constraint firstAttribute="width" secondItem="gMQ-yF-cQz" secondAttribute="height" multiplier="1:1" id="LWj-NB-7by"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="8_150709170804_8" translatesAutoresizingMaskIntoConstraints="NO" id="p4F-5G-rDL">
+                    <rect key="frame" x="46" y="318" width="195" height="182"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="195" id="Mno-cg-yun"/>
+                        <constraint firstAttribute="width" secondItem="p4F-5G-rDL" secondAttribute="height" multiplier="1:1" constant="13" id="rZz-4w-2dD"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="wfF-Pd-Eti" firstAttribute="leading" secondItem="e3o-db-ApL" secondAttribute="leading" id="OWI-uV-GZa"/>
+                <constraint firstItem="e3o-db-ApL" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="2.5" id="TYm-vR-bQ4"/>
+                <constraint firstItem="gMQ-yF-cQz" firstAttribute="leading" secondItem="Dkp-do-3y5" secondAttribute="trailing" constant="3" id="ZDj-FR-XFk"/>
+                <constraint firstItem="Dkp-do-3y5" firstAttribute="leading" secondItem="e3o-db-ApL" secondAttribute="leading" id="aNw-FC-XlY"/>
+                <constraint firstItem="p4F-5G-rDL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="46" id="doP-Tv-a2Q"/>
+                <constraint firstItem="gMQ-yF-cQz" firstAttribute="top" secondItem="e3o-db-ApL" secondAttribute="bottom" constant="18" id="hGm-Rt-CIk"/>
+                <constraint firstItem="p4F-5G-rDL" firstAttribute="top" secondItem="wfF-Pd-Eti" secondAttribute="bottom" constant="16" id="ixd-gW-G0o"/>
+                <constraint firstItem="e3o-db-ApL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="86" id="pF3-gG-U8B"/>
+                <constraint firstItem="Dkp-do-3y5" firstAttribute="top" secondItem="e3o-db-ApL" secondAttribute="bottom" constant="18" id="pzT-vW-Jl7"/>
+                <constraint firstItem="wfF-Pd-Eti" firstAttribute="top" secondItem="Dkp-do-3y5" secondAttribute="bottom" constant="126" id="rlx-Ta-bfE"/>
+            </constraints>
+            <point key="canvasLocation" x="26.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="8_150709170804_8" width="200" height="200"/>
+    </resources>
+</document>
